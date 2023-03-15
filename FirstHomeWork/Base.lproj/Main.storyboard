@@ -17,25 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXU-ic-Olj" userLabel="blueView">
-                                <rect key="frame" x="16" y="75" width="360" height="361"/>
+                                <rect key="frame" x="16" y="59" width="361" height="361"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VcD-jv-sGj" userLabel="redView">
-                                <rect key="frame" x="16" y="475" width="361" height="361"/>
+                                <rect key="frame" x="16" y="457" width="361" height="361"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KXU-ic-Olj" firstAttribute="width" secondItem="VcD-jv-sGj" secondAttribute="width" multiplier="0.99723" id="20u-80-iVc"/>
-                            <constraint firstItem="KXU-ic-Olj" firstAttribute="height" secondItem="VcD-jv-sGj" secondAttribute="height" id="4W5-og-wrb"/>
-                            <constraint firstItem="KXU-ic-Olj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="LBJ-tG-ZhK"/>
-                            <constraint firstAttribute="bottom" secondItem="VcD-jv-sGj" secondAttribute="bottom" constant="16" id="TZO-ZI-DDt"/>
-                            <constraint firstItem="KXU-ic-Olj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="UIP-jZ-yg4"/>
-                            <constraint firstItem="VcD-jv-sGj" firstAttribute="top" secondItem="KXU-ic-Olj" secondAttribute="bottom" constant="39" id="Zfh-dP-RrF"/>
-                            <constraint firstItem="VcD-jv-sGj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="elm-ic-UNS"/>
-                            <constraint firstItem="VcD-jv-sGj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pU3-4Z-AVt"/>
+                            <constraint firstItem="VcD-jv-sGj" firstAttribute="top" secondItem="KXU-ic-Olj" secondAttribute="bottom" constant="37" id="N1X-F3-yI3"/>
+                            <constraint firstItem="VcD-jv-sGj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PpX-GR-IO0"/>
+                            <constraint firstItem="KXU-ic-Olj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ST0-8X-Imb"/>
+                            <constraint firstItem="KXU-ic-Olj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="W48-He-L3F"/>
+                            <constraint firstItem="VcD-jv-sGj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ZCO-Lb-PzC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXU-ic-Olj" secondAttribute="trailing" constant="16" id="boq-2b-LDG"/>
+                            <constraint firstItem="VcD-jv-sGj" firstAttribute="height" secondItem="KXU-ic-Olj" secondAttribute="height" id="nJd-nL-4bd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VcD-jv-sGj" secondAttribute="trailing" constant="16" id="soG-KK-Hj2"/>
                         </constraints>
                     </view>
                 </viewController>
